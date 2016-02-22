@@ -10,12 +10,9 @@ body {
     overflow: hidden;
 }
 
-#nav-bar {
-    text-align: center;
-}
-
 #nav-bar li {
     float: left;
+    text-align: center;
 }
 
 #nav-bar a {
