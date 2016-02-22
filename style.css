@@ -16,12 +16,15 @@ body {
 
 #nav-bar li {
     float: left;
-    text-decoration: none;
 }
 
 #nav-bar a {
     color: white;
     display: inline-block;
     padding: 10px;
-    
+    text-decoration: none;
+}
+
+div {
+    max-width: 900px;
 }
