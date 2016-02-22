@@ -9,7 +9,7 @@ nav {
     color: white;
 }
 
-nav li {
+nav ul li {
     text-decoration: none;
     display: inline-block;
     float: left;
