@@ -1,0 +1,12 @@
+
+
+body {
+    max-width: 960px;
+}
+
+nav {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
