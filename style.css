@@ -3,13 +3,13 @@
 
 
 #nav-bar {
-    width: 100%;
+    background-color: blue;
 }
 
 #nav-bar ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: blue;
 }
 
 #nav-bar li {
