@@ -24,6 +24,10 @@ body {
     text-decoration: none;
 }
 
-div {
-    max-width: 900px;
+#name {
+    text-align: center;
+}
+
+#job {
+    text-align: center;
 }
