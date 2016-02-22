@@ -5,6 +5,7 @@
 nav #nav-bar {
     background-color: blue;
     margin: auto;
+    border: 4px black solid;
 }
 
 #nav-bar ul {
