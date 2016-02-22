@@ -2,16 +2,11 @@
 
 
 
-nav #nav-bar {
-    background-color: blue;
-    margin: auto;
-    border: 4px black solid;
-}
-
 #nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 #nav-bar li {
@@ -19,7 +14,8 @@ nav #nav-bar {
 }
 
 #nav-bar a {
-    color: white;
+    background-color: blue;
+    color: black;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
