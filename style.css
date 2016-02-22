@@ -4,15 +4,19 @@ body {
     max-width: 960px;
 }
 
-nav {
+.nav-bar {
     width: 100%;
     background-color: blue;
-    color: white;
 }
 
-li {
-    text-decoration: none;
+.nav-bar ul li {
     display: inline-block;
     color: white;
     float: left;
+    padding: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
 }
