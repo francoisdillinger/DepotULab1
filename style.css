@@ -7,6 +7,10 @@ body {
 nav {
     background-color: blue;
     color: white;
-    text-decoration: none;
     display: inline-block;
+    float: left;
+}
+
+nav li {
+    text-decoration: none;
 }
