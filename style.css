@@ -16,10 +16,10 @@ body {
 
 #nav-bar li {
     float: left;
+    text-decoration: none;
 }
 
 #nav-bar a {
-    text-decoration: none;
     color: white;
     display: inline-block;
     padding: 10px;
