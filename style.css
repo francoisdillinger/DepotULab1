@@ -18,9 +18,9 @@ body {
 #nav-bar a {
     
     background-color: blue;
-    color: black;
+    color: white;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 
