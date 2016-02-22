@@ -10,7 +10,7 @@ body {
 }
 
 #banner {
-    width: 100%;
+    min-width: 100%;
 }
 
 #nav-bar ul {
