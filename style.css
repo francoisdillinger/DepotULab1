@@ -7,12 +7,13 @@ html {
 body {
    margin: 0; 
    padding: 0;
-   min-width: 960px;
+   width: 960px;
 }
 
 #banner {
     min-width: 100%;
     background-color: blue;
+    text-align: center;
 }
 
 #nav-bar ul {
@@ -24,7 +25,6 @@ body {
 
 #nav-bar li {
     float: left;
-    text-align: center;
 }
 
 #nav-bar a {
