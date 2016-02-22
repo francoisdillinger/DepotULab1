@@ -9,11 +9,8 @@ nav {
     color: white;
 }
 
-nav ul {
-    display: inline-block;
-    float: left;
-}
-
 nav li {
     text-decoration: none;
+    display: inline-block;
+    float: left;
 }
