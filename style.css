@@ -9,12 +9,15 @@ body {
    padding: 0;
 }
 
+#banner {
+    width: 100%;
+}
+
 #nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    min-width: 100%;
 }
 
 #nav-bar li {
