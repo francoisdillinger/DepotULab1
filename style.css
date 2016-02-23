@@ -34,27 +34,27 @@ body {
     text-decoration: none;
 }
 
-#name {
+.name {
     text-align: center;
 }
 
-#job {
+.job {
     text-align: center;
 }
 
-#about {
+.about {
     text-align: center;
     overflow: hidden;
     width: 100%;
 }
 
-#about h2 {
+.about h2 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 10px 0;
 }
 
-#p1 {
+.p1 {
     display: inline-block;
     max-width: 45%;
     padding: 0 5px 0 15px;
@@ -62,7 +62,7 @@ body {
     float: left;
 }
 
-#p2 {
+.p2 {
     display: inline-block;
     max-width: 45%;
     padding: 0 5px 0 10px;
@@ -70,19 +70,19 @@ body {
     float: left;
 }
 
-#tech {
+.tech {
     text-align: center;
     overflow: hidden;
     width: 100%;
 }
 
-#tech h2 {
+.tech h2 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 10px 0;
 }
 
-#p3 {
+.p3 {
     display: inline-block;
     max-width: 45%;
     padding: 0 5px 0 15px;
@@ -90,7 +90,7 @@ body {
     float: left;
 }
 
-#p4 {
+.p4 {
     display: inline-block;
     max-width: 45%;
     padding: 0 5px 0 10px;
@@ -98,12 +98,16 @@ body {
     float: left;
 }
 
-#projects {
+.projects {
+    
+}
+.projects h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.projects {
     margin-left: 15px;
-}
-#projects h2 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 10px 0;
-    text-align: center;
 }
