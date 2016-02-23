@@ -11,16 +11,17 @@ body {
 
 .banner {
     min-width: 100%;
-    background-color: blue;
+    background-color: grey;
 }
 
 .nav-bar ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;
     padding: 20px 0;
+    max-width: 400px;
+    margin: 0 auto;
+    font-style: italic;
 }
 
 .nav-bar li {
@@ -28,10 +29,23 @@ body {
 }
 
 .nav-bar a {
-    color: white;
+    color: black;
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
+}
+ 
+.nav-bar a:hover {
+    color: white;
+}
+
+.body {
+    max-width: 960px;
+    margin: auto;
+}
+hr {
+    border-top: 2px solid grey;
+    max-width: 960px;
 }
 
 .name {
@@ -43,57 +57,51 @@ body {
 }
 
 .about {
-    text-align: center;
     overflow: hidden;
     width: 100%;
 }
 
 .about h2 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 10px 0;
+    text-align: center;
 }
 
 .p1 {
     display: inline-block;
-    max-width: 45%;
-    padding: 0 5px 0 15px;
+    max-width: 35%;
+    padding: 0 1% 0 13%;
     text-align: left;
     float: left;
 }
 
 .p2 {
     display: inline-block;
-    max-width: 45%;
-    padding: 0 5px 0 10px;
+    max-width: 35%;
+    padding: 0 5px 0 15px;
     text-align: left;
     float: left;
 }
 
 .tech {
-    text-align: center;
     overflow: hidden;
     width: 100%;
 }
 
 .tech h2 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 10px 0;
+    text-align: center;
 }
 
 .p3 {
     display: inline-block;
-    max-width: 45%;
-    padding: 0 5px 0 15px;
+    max-width: 35%;
+    padding: 0 1% 0 13%;
     text-align: left;
     float: left;
 }
 
 .p4 {
     display: inline-block;
-    max-width: 45%;
-    padding: 0 5px 0 10px;
+    max-width: 35%;
+    padding: 0 5px 0 15px;
     text-align: left;
     float: left;
 }
@@ -102,12 +110,117 @@ body {
     
 }
 .projects h2 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 10px 0;
     text-align: center;
 }
 
-.projects {
-    margin-left: 15px;
+.projects h3 {
+    margin-left: 13%;
+} 
+
+.projects p {
+    margin-left: 13%;
+}
+
+.experience h2 {
+    text-align: center;
+}
+
+.experience h3 {
+    margin-left: 10%;
+}
+
+.experience h4 {
+    margin-left: 13%;
+    font-style: italic;
+}
+
+.experience p {
+    margin-left: 13%;
+}
+
+.education h2 {
+    text-align: center;
+}
+
+.education p {
+    margin-left: 13%;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+
+.form {
+    min-height: 350px;
+}
+
+fieldset {
+    width: 450px;
+    height: 350px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 20px auto 40px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+fieldset label {
+    margin: 0 0 5% 22%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.inputname {
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 0 3% 22%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.inputemail {
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 0 3% 22%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+textarea {
+    width: 240px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 0 0 22%;
+    font-size: 16px;     
+}
+
+.button {
+    width: 240px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 0 5% 22%;
+    font-size: 16px;
+    background-color: white;
+    color: gray;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    padding: 5px 0 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-style: italic;
 }
