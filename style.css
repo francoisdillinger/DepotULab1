@@ -9,7 +9,7 @@ body {
    padding: 0;
 }
 
-#banner {
+.banner {
     min-width: 100%;
     background-color: blue;
 }
